@@ -1,0 +1,166 @@
+
+#detail .container {
+    text-align: center;
+}
+
+#detail .container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: var(--sub-color01);
+    color: var(--bg-color03);
+}
+
+#detail main figure img {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+/*정보상자*/
+
+#detail main .info {
+    background-color: #f4f4f4;
+    margin: 20px;
+    margin-top: 0;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#detail main .info .date {
+    font-size: 12px;
+}
+
+#detail main .info .date p {
+   position: relative;
+   top: 5px;
+   right: 80px;
+}
+
+#detail main .info .date span {
+    background: #fff;
+    border: 1px solid #7FC241;
+    border-radius: 16px;
+    padding: 2px 6px;
+    margin-right: 12px;
+}
+
+#info-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    position: relative;
+    top: -17px;
+}
+
+#info-box, .col {
+    margin-top: 15px;
+}
+
+#info-box, .col, .col- {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#info-box .col- {
+    margin-bottom: 5px;
+}
+
+#info-box .info01 {
+    background: var(--sub-color01);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-bottom: 2px solid #fff;
+    border-radius: 20px 0px 0px 0px;
+}
+
+#info-box .info02 {
+    background: #fff;
+    color: var(--text-color);
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid #fff;
+}
+
+#info-box .info03 {
+    background: var(--sub-color01);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-bottom: 2px solid #fff;
+}
+
+#info-box .info04 {
+    background: #fff;
+    color: var(--text-color);
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid #fff;
+    border-radius: 0px 20px 0px 0px;
+}
+
+#info-box .info05 {
+    background: var(--sub-color01);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 0px 0px 0px 20px;
+}
+
+#info-box .info06 {
+    background: #fff;
+    color: var(--text-color);
+    width: 100px;
+    height: 50px;
+    border-bottom: 2px solid #fff;
+}
+
+#info-box .info07 {
+    background: var(--sub-color01);
+    color: #fff;
+    width: 50px;
+    height: 50px;
+}
+
+#info-box .info08 {
+    background: #fff;
+    color: var(--text-color);
+    width: 100px;
+    height: 50px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+
+#detail main .info .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+#detail main .call-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 9px 15px;
+    background: #7FC241;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+#detail main .call-btn a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}

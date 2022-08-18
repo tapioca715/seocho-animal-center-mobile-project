@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 타이틀(페이지별 변경 필요) -->
+    <title>오시는길 - 서초동물사랑센터</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- 제이쿼리 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 자바스크립트 -->
+    <script src="./js/app.js"></script>
+</head>
+
+<body id="map">
+    <div class="page">
+        <header id="main-header">
+            <h1>
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="로고">
+                </a>
+            </h1>
+            <nav id="icon-menu">
+                <button id="toggle-btn"><i class="bi bi-list"></i></button>
+            </nav>
+
+            <nav id="gnb">
+                <ul>
+                    <li id="cate01" class="gnbMenu"><a href="#">센터 소개</a>
+                        <ol class="slideSubMenu sub01">
+                            <li class="subCate"><a href="center.html">센터 소개</a></li>
+                            <li class="subCate"><a href="rule.html">이용 수칙</a></li>
+                            <li class="subCate"><a href="map.html">오시는길</a></li>
+                        </ol>
+                    </li>
+
+                    <li id="cate02" class="gnbMenu"><a href="#">입양 안내</a>
+                        <ol class="slideSubMenu sub02">
+                            <li class="subCate"><a href="process.html">입양 절차</a></li>
+                            <li class="subCate"><a href="notice.html">입양 공고</a></li>
+                            <li class="subCate"><a href="#">입양 후 소식</a></li>
+                        </ol>
+                    </li>
+
+                    <li id="cate03" class="gnbMenu"><a href="#">커뮤니티</a>
+                        <ol class="slideSubMenu sub03">
+                            <li class="subCate"><a href="#">공지사항</a></li>
+                            <li class="subCate"><a href="#">갤러리</a></li>
+                            <li class="subCate"><a href="#">뉴스레터</a></li>
+                            <li class="subCate"><a href="#">FAQ</a></li>
+                        </ol>
+                    </li>
+
+                    <li id="cate04" class="gnbMenu"><a href="#">교육</a>
+                        <ol class="slideSubMenu sub04">
+                            <li class="subCate"><a href="#">온라인 교육영상</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <button id="btn-close"><i class="bi bi-x"></i></button>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <h1>오시는길</h1>
+                <p>
+                    <a href="center.html">센터 소개</a><span>&emsp;|&emsp;</span>
+                    <a href="rule.html">이용 수칙</a><span>&emsp;|&emsp;</span>
+                    <a href="map.html">오시는길</a>
+                </p>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.3387374471195!2d127.03593541566147!3d37.47633207981483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca10b5d836675%3A0x1bbfbc48b01835de!2z7ISc7LSIIOuPmeusvOyCrOuekeyEvO2EsA!5e0!3m2!1sko!2skr!4v1658191542383!5m2!1sko!2skr"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+                <div class="info">
+                    <div class="location">
+                        <img src="./images/location-dot.png" alt="">
+                        <h2>주소</h2>
+                        <p>서울특별시 서초구 양재천로 19길 22<br>
+                            (향산빌딩, 서초동물사랑센터)
+                        </p>
+                    </div>
+                    <div class="train-subway">
+                        <img src="./images/train-subway.png" alt="">
+                        <h2>지하철</h2>
+                        <p>양재시민의숲 역(신분당선),<br>
+                            양재역(3호선,신분당선)
+                        </p>
+                    </div>
+                    <div class="bus">
+                        <img src="./images/bus.png" alt="">
+                        <h2>버스</h2>
+                        <p>교육개발원입구(중)(22001),<br>
+                            일동제약(22553),<br>
+                            양재시민의숲(22541)
+                        </p>
+                    </div>
+                    <div class="parking">
+                        <img src="./images/parking.png" alt="">
+                        <h2>주차정보</h2>
+                        <p>양재시민의 숲 공영주차장 이용(유료)</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="footer-sns">
+                <a href="https://www.instagram.com/seocho_animal/"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+            <div class="footer-menu">
+                <a href="center.html">센터소개 </a><span>|</span>
+                <a href="#">개인정보취급방침 </a><span>|</span>
+                <a href="#">찾아오시는길 </a><span>|</span>
+                <a href="#">동물보호정책</a>
+            </div>
+            <p class="address">주소 : 서울 서초구 양재천로19길 22<br>
+                전화번호 : 02-6956-7981</p>
+            <p class="copy">Copyright © 2019. 서초동물사랑센터. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
