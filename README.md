@@ -1,5 +1,7 @@
 ﻿# 페이지 바로가기
 https://tapioca715.github.io/seocho-animal-center-mobile-project/
+<img width="95" alt="image" src="https://user-images.githubusercontent.com/106294039/185303222-9a8ad71a-48ee-4b48-87c2-b4462ed0795c.png">
+
 # 기존 사이트 
 https://seocho.go.kr/site/animal/main.do
 
